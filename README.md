@@ -1,7 +1,7 @@
 # hybrid-v35_64-nodebug-pcoem-6_30_223_271
-BCM 4331 patched for kernel 4.7.x
+# BCM 4331 patched for kernel 4.7.x
 
-Do you want to share your ethernet connection through your WiFi (create a wifi hotspot)?
+# Do you want to share your ethernet connection through your WiFi (create a wifi hotspot)?
 
 If so, you can take full advantage of your driver by downloading the broadcom driver, compiling and installing it:
 
@@ -17,4 +17,7 @@ apply the patch found at
 https://github.com/USA-RedDragon/broadcom-wl-dkms/commit/52ef285fd9c688bb8b161b64d5dd1c4a8f2a1c4f
 
 compile it and install it.
+
+## Install
+./install.sh
 
