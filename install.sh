@@ -1,5 +1,10 @@
 #/usr/bin/env bash
 
+DISTRO=`lsb_release -is`
+
+if [ "Fedora" == "$DISTRO" ] ; then sudo dnf install gcc kernel-devel -y ; fi
+if [ "Debian" == "$DISTRO" ] ; then sudo apt-get -y install linux-headers-$(uname -r) ; fi
+
 # install packages to compile the BCM4331 driver
 sudo dnf install gcc kernel-devel -y
 
