@@ -7,7 +7,6 @@ If so, you can take full advantage of your driver by downloading the broadcom dr
 (AND for those using Fedora 24 kernel 4.7.x and having trouble with this solution):
 
 You can clone this repository that I've made and run install.sh
-https://github.com/hngouveia01/hybrid-v35_64-nodebug-pcoem-6_30_223_271
 
 Or you can also download the driver at http://www.broadcom.com/support/802.11
 (64 bits) http://www.broadcom.com/docs/linux_sta/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz
